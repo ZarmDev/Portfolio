@@ -15,6 +15,17 @@ pre {
     font-size: 3ch;
     font-family: 'Roboto', sans-serif;
 }
+p {
+    font-size: 3ch;
+    font-family: 'Roboto', sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    font-size: 3ch;
+    font-family: 'Roboto', sans-serif;
+}
 #topbar {
     background-color: rgba(38, 109, 171, 0.194);
     border-bottom-left-radius: 5px;
@@ -29,7 +40,7 @@ pre {
     width: 96vw;
     height: 10vh;
     bottom: 80vh;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(50px);
 }
 #topbar a {
     background-color: rgba(59, 90, 190, 0.879);
@@ -48,6 +59,21 @@ pre {
 }
 #about {
     background-color: rgb(40, 80, 103);
+    padding-top: 0.5vh;
+    padding-bottom: 5vh;
+}
+#projects {
+    background-color: rgba(70, 10, 88, 0.363);
+    padding-top: 0.5vh;
+    padding-bottom: 5vh;
+}
+#skills {
+    background-color: rgba(39, 172, 121, 0.363);
+    padding-top: 0.5vh;
+    padding-bottom: 5vh;
+}
+#tutoring {
+    background-color: rgba(74, 88, 10, 0.546);
     padding-top: 0.5vh;
     padding-bottom: 5vh;
 }
