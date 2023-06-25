@@ -1,31 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 :root {
     scroll-behavior: smooth;
 }
+
 body {
     background-color: black;
     color: rgb(230, 253, 255);
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
-body > * {
+
+body>* {
     transition: 0.5s;
 }
+
 pre {
     font-size: 3ch;
     font-family: 'Roboto', sans-serif;
+    white-space: pre-wrap;
 }
+
 p {
     font-size: 3ch;
     font-family: 'Roboto', sans-serif;
 }
+
 ul {
     list-style-type: none;
 }
+
 li {
     font-size: 3ch;
     font-family: 'Roboto', sans-serif;
 }
+
 #topbar {
     background-color: rgba(38, 109, 171, 0.194);
     border-bottom-left-radius: 5px;
@@ -39,9 +48,9 @@ li {
     position: fixed;
     width: 96vw;
     height: 10vh;
-    bottom: 80vh;
     backdrop-filter: blur(50px);
 }
+
 #topbar a {
     background-color: rgba(59, 90, 190, 0.879);
     padding: 1ch;
@@ -54,44 +63,72 @@ li {
     color: rgb(165, 232, 255);
     text-decoration: none;
 }
+
 #topbar li:hover {
     background-color: rgb(71, 71, 224);
 }
+
 #about {
     background-color: rgb(40, 80, 103);
     padding-top: 0.5vh;
     padding-bottom: 5vh;
 }
+
 #projects {
     background-color: rgba(70, 10, 88, 0.363);
     padding-top: 0.5vh;
     padding-bottom: 5vh;
 }
+
 #skills {
     background-color: rgba(39, 172, 121, 0.363);
     padding-top: 0.5vh;
     padding-bottom: 5vh;
 }
+
 #tutoring {
     background-color: rgba(74, 88, 10, 0.546);
     padding-top: 0.5vh;
     padding-bottom: 5vh;
 }
+
 .heading {
-    font-size: 6ch;
+    font-size: 40px;
     margin-top: 90vh;
 }
+
 .projectTitle {
     font-size: 4ch;
 }
+
 .projectDescription {
     font-size: 3ch;
 }
+
 #scrollDownMessage {
     position: fixed;
-    top: 85vh;
-    left: 45vw;
-    background-color: rgb(14, 53, 113);
-    width: 10vw;
+    width: 500px;
+    height: 75px;
+    top: 90%;
+    left: 50%;
+    margin-top: -37.5px;
+    /* Negative half of height. */
+    margin-left: -250px;
+    /* Negative half of width. */
+    background-color: #0e3571;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    #scrollDownMessage {
+        display: none;
+    }
+}
+
+#hello {
+    font-size: 80px;
+    white-space: pre-wrap;
 }
