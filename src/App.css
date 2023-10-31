@@ -35,6 +35,17 @@ li {
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+    width: 20%;
+    height: 20%;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 6ch;
+    font-weight: lighter;
+}
+
 #topbar {
     background-color: rgba(38, 109, 171, 0.194);
     border-bottom-left-radius: 5px;
@@ -86,14 +97,14 @@ li {
     padding-bottom: 5vh;
 }
 
-#tutoring {
+#experience {
     background-color: rgba(74, 88, 10, 0.546);
     padding-top: 0.5vh;
     padding-bottom: 5vh;
 }
 
 .heading {
-    font-size: 40px;
+    font-size: 6ch;
     margin-top: 90vh;
 }
 

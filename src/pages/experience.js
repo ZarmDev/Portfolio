@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Tutoring() {
+export default function Experience() {
   return (
-    <section id="tutoring">
+    <section id="experience">
       <div>
-        <h1 class="heading">Tutoring</h1>
+        <h1 class="heading">Experience</h1>
         <p>Still making this section. Check back later!</p>
       </div>
     </section>

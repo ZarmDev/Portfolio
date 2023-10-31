@@ -1,17 +1,70 @@
 import React from "react";
 import Project from "../components/project";
 
+import ardunioPic1 from '../assets/IMG_0250.jpg';
+import ardunioPic2 from '../assets/IMG_2037.jpg';
+
+const projectsDictionary = {
+  "To-Doz-React": {
+    description: "A planner/to-do app I made before my freshman year of school started",
+    link: "https://zarmdev.github.io/To-doz-React/"
+  },
+  "RudePassionateMicroBSD": {
+    description: "A fun super smash bros inspired game in the browser, featuring dogs vs cats",
+    link: "https://rudepassionatemicrobsd.zarmdev.repl.co/"
+  },
+  "Calculator App": {
+    description: "Just a calculator",
+    link: "https://zarmdev.github.io/FCC4/"
+  },
+  "Windows 11 Clone": {
+    description: "A windows 11 clone",
+    link: "https://zarmdev.github.io/Windows11/index.html"
+  },
+  "Rain": {
+    description: "CSS Rain",
+    link: "https://rain.zarmdev.repl.co"
+  },
+  "Organization Time!": {
+    description: "A platformer I made in Godot 4 during a 48 hour hackathon",
+    link: "https://www.youtube.com/watch?v=s38TT-4gmsc&t=5s"
+  },
+  "Chess in the console": {
+    description: "A chess game I made using JS",
+    link: "https://replit.com/@ZarmDev/consolechess#index.js"
+  },
+  "forcedark": {
+    description: "A extension that forces dark mode on websites",
+    link: "https://github.com/ZarmDev/forcedark"
+  },
+};
+
 export default function Projects() {
+  const projects = Object.keys(projectsDictionary).map((key) => {
+    const project = projectsDictionary[key];
+    return (
+      <Project
+        projectTitle={key}
+        projectDescription={project.description}
+        projectLink={project.link}
+      />
+    );
+  });
+
   return (
     <section id="projects">
       <div>
-        <h1 class="heading">Projects</h1>
-        <Project projectTitle="To-Doz-React" projectDescription="A planner/to-do app I made before my freshman year of school started" projectLink="https://zarmdev.github.io/To-doz-React/"></Project>
-        <Project projectTitle="RudePassionateMicroBSD" projectDescription="A fun super smash bros inspired game in the browser, featuring dogs vs cats" projectLink="https://rudepassionatemicrobsd.zarmdev.repl.co/"></Project>
-        <Project projectTitle="Calculator App" projectDescription="Just a calculator" projectLink="https://zarmdev.github.io/FCC4/"></Project>
-        <Project projectTitle="Windows 11 Clone" projectDescription="A windows 11 clone" projectLink="https://zarmdev.github.io/Windows11/index.html"></Project>
-        <Project projectTitle="Rain" projectDescription="CSS Rain" projectLink="https://rain.zarmdev.repl.co"></Project>
-        <Project projectTitle="Organization Time!" projectDescription="A platformer I made in Godot 4 during a 48 hour hackathon" projectLink="https://www.youtube.com/watch?v=s38TT-4gmsc&t=5s"></Project>
+        <h1 className="heading">Projects</h1>
+        <h2>Real life projects</h2>
+        <h3>Just some old photo I found using Ardunio</h3>
+        <img src={ardunioPic1} alt="Random Ardunio picture"></img>
+        <h3>Using a moisture sensor and LCD display to light up the screen with moisture data</h3>
+        <img src={ardunioPic2} alt="Ardunio with moisture sensor"></img>
+        <h3>I also had a weather monitor (DHT11) with a LCD display but I didn't take a photo of it :/</h3>
+        <br></br><br></br><br></br><br></br>
+        <h2>Projects made online!</h2>
+        {/* Where projects are injected */}
+        {projects}
       </div>
     </section>
   );

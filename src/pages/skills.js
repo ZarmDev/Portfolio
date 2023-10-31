@@ -12,17 +12,21 @@ export default function Skills() {
             <li>CSS</li>
             <li>Javascript</li>
             <li>Python</li>
+            <li>React</li>
         </ul>
         <h2>Programming languages I am learning:</h2>
         <ul>
-            <li>React (library)</li>
+            <li>Typescript</li>
             <li>Redux</li>
+            <li>Node.js/Express</li>
+            <li>Prisma</li>
             <li>Godot (GD Script)</li>
             <li>Unity (C#)</li>
             <li>Rust</li>
             <li>Scratch</li>
             <li>C++</li>
             <li>Flutter/Dart</li>
+            <li>Java</li>
         </ul>
       </div>
     </section>
