@@ -13,6 +13,7 @@ export default function Skills() {
             <li>Javascript</li>
             <li>Python</li>
             <li>React</li>
+            <li>Scratch</li>
         </ul>
         <h2>Programming languages I am learning:</h2>
         <ul>
@@ -23,7 +24,6 @@ export default function Skills() {
             <li>Godot (GD Script)</li>
             <li>Unity (C#)</li>
             <li>Rust</li>
-            <li>Scratch</li>
             <li>C++</li>
             <li>Flutter/Dart</li>
             <li>Java</li>
