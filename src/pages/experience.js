@@ -10,12 +10,11 @@ export default function Experience() {
         <h2>I did Techcodes python tutoring</h2>
         <p>In the summer of 2023</p>
         {/* Automate the coding info in the future */}
-        <h2>Coding Statistics 😑</h2>
-        <ul>
-          <li>I have solved 11 Leetcode problems</li>
-          <li>20 Codewars problems</li>
-          <li>I am bronze in UASCO</li>
-        </ul>
+        <h2>UASCO</h2>
+        <pre>
+          I have participated in UASCO in 2022.
+          I am bronze as of now.
+        </pre>
       </div>
     </section>
   );

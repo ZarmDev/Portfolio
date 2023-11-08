@@ -17,9 +17,13 @@ const projectsDictionary = {
     description: "Just a calculator",
     link: "https://zarmdev.github.io/FCC4/"
   },
-  "Windows 11 Clone": {
-    description: "A windows 11 clone",
-    link: "https://zarmdev.github.io/Windows11/index.html"
+  "Metrophobia - Chapter 1": {
+    description: "My Roblox horror game series called Metrophobia",
+    link: "https://www.roblox.com/games/10296378249/Metrophobia"
+  },
+  "Metrophobia - Chapter 2": {
+    description: "My Roblox horror game series called Metrophobia",
+    link: "https://www.roblox.com/games/10750671295/Metrophobia-Part2"
   },
   "Rain": {
     description: "CSS Rain",
@@ -28,10 +32,6 @@ const projectsDictionary = {
   "Organization Time!": {
     description: "A platformer I made in Godot 4 during a 48 hour hackathon",
     link: "https://www.youtube.com/watch?v=s38TT-4gmsc&t=5s"
-  },
-  "Chess in the console": {
-    description: "A chess game I made using JS",
-    link: "https://replit.com/@ZarmDev/consolechess#index.js"
   },
   "forcedark": {
     description: "A extension that forces dark mode on websites",

@@ -14,6 +14,7 @@ export default function Skills() {
             <li>Python</li>
             <li>React</li>
             <li>Scratch</li>
+            <li>(Roblox) Lua</li>
         </ul>
         <h2>Programming languages I am learning:</h2>
         <ul>
