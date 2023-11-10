@@ -50,8 +50,8 @@ li {
 }
 
 img {
-    width: 20%;
-    height: 20%;
+    width: 60%;
+    height: 40%;
     border-radius: 5px;
 }
 
@@ -160,6 +160,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0.1;
 }
 
 #hello {

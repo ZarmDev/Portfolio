@@ -16,9 +16,9 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
+console.log('test')
 window.onload = function () {
   const scrollDownMessage = document.getElementById('scrollDownMessage');
-
   var checkScroll = setInterval(function () {
     if (window.scrollY >= 750) {
       scrollDownMessage.style.display = 'none'
@@ -27,5 +27,5 @@ window.onload = function () {
       console.log(1 - (window.scrollY / 750))
       scrollDownMessage.style.opacity = 1 - (window.scrollY / 750)
     }
-  }, 100)
+  }, 10)
 }
