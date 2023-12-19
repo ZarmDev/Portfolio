@@ -16,7 +16,7 @@ function App() {
         <a href="/Portfolio/#projects">Projects</a>
         <a href="/Portfolio/#skills">Skills</a>
         <a href="/Portfolio/#experience">Experience</a>
-        <a href="/Portfolio/#creativeart">Creative Art Experience</a>
+        <a href="/Portfolio/#creativeart">Game Design Experience</a>
       </ul>
       <div id="scrollDownMessage">
         <p>Scroll down ⬇️</p>

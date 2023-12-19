@@ -9,29 +9,13 @@ const projectsDictionary = {
     description: "A planner/to-do app I made before my freshman year of school started",
     link: "https://zarmdev.github.io/To-doz-React/"
   },
-  "RudePassionateMicroBSD": {
-    description: "A fun super smash bros inspired game in the browser, featuring dogs vs cats",
-    link: "https://rudepassionatemicrobsd.zarmdev.repl.co/"
+  "Plant Coppa": {
+    description: "A plant selling/buying website I made with my team in one week (may take a while to load)",
+    link: "https://plantcoppa.daniala5.repl.co/"
   },
-  "Calculator App": {
+  "Calculator React App": {
     description: "Just a calculator",
     link: "https://zarmdev.github.io/FCC4/"
-  },
-  "Metrophobia - Chapter 1": {
-    description: "My Roblox horror game series called Metrophobia",
-    link: "https://www.roblox.com/games/10296378249/Metrophobia"
-  },
-  "Metrophobia - Chapter 2": {
-    description: "My Roblox horror game series called Metrophobia",
-    link: "https://www.roblox.com/games/10750671295/Metrophobia-Part2"
-  },
-  "Rain": {
-    description: "CSS Rain",
-    link: "https://rain.zarmdev.repl.co"
-  },
-  "Organization Time!": {
-    description: "A platformer I made in Godot 4 during a 48 hour hackathon",
-    link: "https://www.youtube.com/watch?v=s38TT-4gmsc&t=5s"
   },
   "forcedark": {
     description: "A extension that forces dark mode on websites",
@@ -56,13 +40,11 @@ export default function Projects() {
       <div>
         <h1 className="heading">Projects</h1>
         <h2>Real life projects</h2>
-        <h3>Just some old photo I found using Ardunio</h3>
-        <img src={ardunioPic1} alt="Random Ardunio picture"></img>
         <h3>Using a moisture sensor and LCD display to light up the screen with moisture data</h3>
         <img src={ardunioPic2} alt="Ardunio with moisture sensor"></img>
         <h3>I also had a weather monitor (DHT11) with a LCD display but I didn't take a photo of it :/</h3>
         <br></br><br></br><br></br><br></br>
-        <h2>Projects made online!</h2>
+        <h2>Web Dev Projects</h2>
         {/* Where projects are injected */}
         {projects}
       </div>
