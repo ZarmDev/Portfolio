@@ -6,7 +6,7 @@ import ardunioPic2 from '../assets/IMG_2037.jpg';
 
 const projectsDictionary = {
   "To-Doz-React": {
-    description: "A planner/to-do app I made before my freshman year of school started",
+    description: "A planner/to-do app I started before my freshman year of school started",
     link: "https://zarmdev.github.io/To-doz-React/"
   },
   "Plant Coppa": {

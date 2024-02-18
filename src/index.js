@@ -16,7 +16,6 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
-console.log('test')
 window.onload = function () {
   const scrollDownMessage = document.getElementById('scrollDownMessage');
   var checkScroll = setInterval(function () {
