@@ -7,7 +7,7 @@ import Project from "../components/project";
 const projectsDictionary = {
   "Cats vs Dogs (browser game)": {
     description: "A fun super smash bros inspired game in the browser, featuring dogs vs cats. Takes a long time to load because of the repl needs to wake up.",
-    link: "https://rudepassionatemicrobsd.zarmdev.repl.co/"
+    link: "https://github.com/ZarmDev/RudePassionateMicrobsd"
   },
   "Metrophobia - Chapter 1": {
     description: "My Roblox horror game series called Metrophobia",
@@ -40,8 +40,8 @@ export default function CreativeArt() {
       <div>
         <h1 class="heading">Game Design Experience</h1>
         {projects}
-        <h2>A youtube video with many of my notable Scatch projects</h2>
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/c4rM13jDjAw?si=Dm8fau8d3BPAJtA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h2>A youtube video with most of my notable Scatch projects</h2>
+        <p>(Unavailable right now, reuploading soon)</p>
         <h2>A story game I made in Godot 4</h2>
         <video width="520" height="360" controls>
             <source src={ela}></source>
@@ -50,7 +50,7 @@ export default function CreativeArt() {
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rnrrxefu_sY?si=PF0odN2TZ4cYxQ85" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h2>Organization time - something I made for a game jam in 48 hours</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/s38TT-4gmsc?si=qfDfuuojGODALrK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <h2>Using blender for the first time!</h2>
+        <h2>Using blender for the first time! (lol amazing art...)</h2>
         <img src={blenderscreenshot}></img>
         </div>
     </section>

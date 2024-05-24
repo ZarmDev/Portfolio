@@ -10,10 +10,14 @@ export default function Experience() {
         <h2>I did Techcodes python tutoring</h2>
         <p>In the summer of 2023</p>
         {/* Automate the coding info in the future */}
-        <h2>UASCO</h2>
+        <h2>Tech Codes Summer Camp</h2>
         <pre>
-          I have participated in UASCO in 2022.
-          I am bronze as of now.
+        Taught the basics of Python programming to middle schoolers across NYC
+        Created original lesson plans and collaborated with other mentors to get students excited about and interested in programming
+        </pre>
+        <h2>Code Overflow 2023 Hackathon</h2>
+        <pre>
+        A 48 hour hackathon where I made a game using Godot.
         </pre>
       </div>
     </section>
