@@ -1,4 +1,5 @@
 # Portfolio
+```commit + push and then run npm run deploy to deploy to gh-pages```
 # Roadmap
 - Improving performance
 - Fixing sizing issues on mobile
