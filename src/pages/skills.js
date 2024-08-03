@@ -40,14 +40,22 @@ export default function Skills() {
           <li>Ardunio (minor projects)</li>
           <li>Raspberry Pi (minor projects)</li>
         </ul>
-        <h2>Game Engines I use:</h2>
+        <h2>Game Engines I have used:</h2>
         <ul>
           <li>Godot</li>
           <li>Unity</li>
-          <li>Gamemaker</li>
+          <li>Gamemaker Studio 2</li>
           <li>Roblox Studio</li>
         </ul>
-        <h2>Tools I use:</h2>
+        <h2>Math Experience</h2>
+        <h3>I am doing:</h3> 
+        <ul>
+          <li>Math Team Class (HS Sophomore + Junior)</li>
+          <li>Number Theory (on Brilliant.org</li>
+          <li>Contest Math I (on Brilliant.org)</li>
+          <li>Graph Theory (on youtube)</li>
+        </ul>
+        <h2>Tools I have used:</h2>
         <ul>
           <li>Waveform Tracktion</li>
           <li>Shotcut</li>
