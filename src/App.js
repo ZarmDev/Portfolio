@@ -13,8 +13,8 @@ function App() {
     <div className="App">
       <ul id="topbar">
         <a href="/Portfolio/#about">About me</a>
-        <a href="/Portfolio/#projects">Projects</a>
         <a href="/Portfolio/#skills">Skills</a>
+        <a href="/Portfolio/#projects">Projects</a>
         <a href="/Portfolio/#experience">Experience</a>
         <a href="/Portfolio/#creativeart">Game Design Experience</a>
       </ul>
@@ -22,8 +22,8 @@ function App() {
         <p>Scroll down ⬇️</p>
       </div>
       <AboutMe></AboutMe>
-      <Projects></Projects>
       <Skills></Skills>
+      <Projects></Projects>
       <Experience></Experience>
       <CreativeArt></CreativeArt>
     </div>

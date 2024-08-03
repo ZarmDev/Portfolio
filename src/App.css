@@ -41,7 +41,7 @@ p {
 }
 
 ul {
-    list-style-type: none;
+    padding: 0;
 }
 
 li {
@@ -50,8 +50,8 @@ li {
 }
 
 img {
-    width: 60%;
-    height: 40%;
+    width: 30%;
+    height: 20%;
     border-radius: 5px;
 }
 

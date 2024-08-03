@@ -40,6 +40,8 @@ export default function CreativeArt() {
       <div>
         <h1 class="heading">Game Design Experience</h1>
         {projects}
+        <h2>A Touhou Inspired Game!!</h2>
+        <p>(Unavailable right now - need to get copyright outta the way)</p>
         <h2>A youtube video with most of my notable Scatch projects</h2>
         <p>(Unavailable right now, reuploading soon)</p>
         <h2>A story game I made in Godot 4</h2>
@@ -50,7 +52,7 @@ export default function CreativeArt() {
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rnrrxefu_sY?si=PF0odN2TZ4cYxQ85" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h2>Organization time - something I made for a game jam in 48 hours</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/s38TT-4gmsc?si=qfDfuuojGODALrK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <h2>Using blender for the first time! (lol amazing art...)</h2>
+        <h2>Metrophobia model (lol amazing art...)</h2>
         <img src={blenderscreenshot}></img>
         </div>
     </section>
