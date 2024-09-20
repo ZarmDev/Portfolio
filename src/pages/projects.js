@@ -31,7 +31,7 @@ const projectsDictionary = {
   },
   "Plant Coppa": {
     description: "A plant selling/buying website my team made in about one week (may take a while to load)",
-    link: "https://plantcoppa.daniala5.repl.co/"
+    link: "https://github.com/ZarmDev/plantcoppa"
   },
   "2048 in pygame": {
     description: "A recreation of the game 2024 made with Python.",

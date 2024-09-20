@@ -15,13 +15,12 @@ export default function Skills() {
           <li>React</li>
           <li>Node.js</li>
           <li>Express (API Development)</li>
+          <li>React native</li>
         </ul>
         <p>I am learning:</p>
         <ul>
-          <li>React-native</li>
           <li>Typescript</li>
           <li>Next.js</li>
-          <li>Redux</li>
           <li>Prisma</li>
         </ul>
         <h2>Programming Languages</h2>
@@ -33,6 +32,7 @@ export default function Skills() {
         <p>I am learning:</p>
         <ul>
           <li>C++</li>
+          <li>Java</li>
         </ul>
         <h2>Other stuff</h2>
         <ul>

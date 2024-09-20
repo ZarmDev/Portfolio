@@ -40,8 +40,8 @@ export default function CreativeArt() {
       <div>
         <h1 class="heading">Game Design Experience</h1>
         {projects}
-        <h2>A Touhou Inspired Game!!</h2>
-        <p>(Unavailable right now - need to get copyright outta the way)</p>
+        <h2>A Touhou Inspired Game!! (Not playable but maybe I'll release the exe)</h2>
+        <a href="https://www.youtube.com/watch?v=ETIfsh2VeOc"></a>
         <h2>A youtube video with most of my notable Scatch projects</h2>
         <p>(Unavailable right now, reuploading soon)</p>
         <h2>A story game I made in Godot 4</h2>
