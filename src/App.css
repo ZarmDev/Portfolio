@@ -17,6 +17,11 @@
     }
 }
 
+.App {
+    display: block;
+    width: 100vw;
+}
+
 
 body {
     background-color: black;
@@ -25,9 +30,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-body>* {
-    transition: 0.5s;
+section > div {
+    margin: 10px;
 }
+
+/* body>* {
+    transition: 0.5s;
+} */
 
 pre {
     font-size: 3ch;
@@ -60,9 +69,14 @@ h2 {
     font-weight: lighter;
 }
 
+h2 > a {
+    font-size: 1.8ch;
+}
+
 a {
     font-family: 'Roboto', sans-serif;
-    color: rgba(50, 135, 210, 0.688)
+    color: rgba(50, 135, 210, 0.688);
+    font-size: 3ch;
 }
 
 .biggerLink {

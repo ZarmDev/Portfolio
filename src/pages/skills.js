@@ -14,7 +14,7 @@ export default function Skills() {
           <li>Javascript</li>
           <li>React</li>
           <li>Node.js</li>
-          <li>Express (API Development)</li>
+          <li>API Development using Javascript</li>
           <li>React native</li>
         </ul>
         <p>I am learning:</p>
@@ -36,7 +36,7 @@ export default function Skills() {
         </ul>
         <h2>Other stuff</h2>
         <ul>
-          <li>Docker (I know a little bit)</li>
+          <li>Docker (I did a course called "Intro to containers" on frontendmasters)</li>
           <li>Ardunio (minor projects)</li>
           <li>Raspberry Pi (minor projects)</li>
         </ul>

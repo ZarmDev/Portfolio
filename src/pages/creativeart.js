@@ -6,7 +6,7 @@ import Project from "../components/project";
 
 const projectsDictionary = {
   "Cats vs Dogs (browser game)": {
-    description: "A fun super smash bros inspired game in the browser, featuring dogs vs cats. Takes a long time to load because of the repl needs to wake up.",
+    description: "A fun super smash bros inspired game in the browser, featuring dogs vs cats. Art made by me and my sister.",
     link: "https://github.com/ZarmDev/RudePassionateMicrobsd"
   },
   "Metrophobia - Chapter 1": {
@@ -40,9 +40,9 @@ export default function CreativeArt() {
       <div>
         <h1 class="heading">Game Design Experience</h1>
         {projects}
-        <h2>A Touhou Inspired Game!! (Not playable but maybe I'll release the exe)</h2>
-        <a href="https://www.youtube.com/watch?v=ETIfsh2VeOc"></a>
-        <h2>A youtube video with most of my notable Scatch projects</h2>
+        <h2>A Touhou Inspired Game!</h2>
+        <a href="https://www.youtube.com/watch?v=ETIfsh2VeOc">Youtube video</a>
+        <h2>My childhood Scratch projects</h2>
         <p>(Unavailable right now, reuploading soon)</p>
         <h2>A story game I made in Godot 4</h2>
         <video width="520" height="360" controls>
@@ -52,7 +52,7 @@ export default function CreativeArt() {
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rnrrxefu_sY?si=PF0odN2TZ4cYxQ85" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h2>Organization time - something I made for a game jam in 48 hours</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/s38TT-4gmsc?si=qfDfuuojGODALrK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <h2>Metrophobia model (lol amazing art...)</h2>
+        <h2>Metrophobia model (amazing art...)</h2>
         <img src={blenderscreenshot}></img>
         </div>
     </section>

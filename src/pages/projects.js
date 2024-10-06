@@ -14,11 +14,11 @@ import monsterpic from '../assets/blenderscreenshot.png'
 
 const projectsDictionary = {
   "OpenTransitApp": {
-    description: "A react-native app that can download train data and render train lines. (Still developing)",
+    description: "A react-native app that can download train data and render train lines.",
     link: "https://github.com/ZarmDev/OpenTransitApp"
   },
   "transitHelper": {
-    description: "A library that simplifies getting MTA data",
+    description: "A library that simplifies getting MTA data. My most challenging and technical project.",
     link: "https://github.com/ZarmDev/transitHelper"
   },
   "To-Doz-React": {
@@ -79,7 +79,7 @@ export default function Projects() {
         {/* Where projects are injected */}
         {projects}
         <br></br><br></br><br></br><br></br>
-        <h2>Robotics?</h2>
+        <h2>Robotics</h2>
         <h3>Using a moisture sensor and LCD display to light up the screen with moisture data</h3>
         <img src={ardunioPic2} alt="Ardunio with moisture sensor"></img>
         <h3>I also had a weather monitor (DHT11) with a LCD display but I didn't take a photo of it :/</h3>
