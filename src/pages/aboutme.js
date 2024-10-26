@@ -7,7 +7,7 @@ export default function AboutMe() {
         <h1 class="heading">About Me</h1>
         <h1 id="hello">Hi there!</h1>
         <pre>
-            I'm a high schooler who loves coding, soccer and gaming!
+            I'm a guy who loves coding, soccer and gaming!
             I enjoy exploring, traveling and trying out new things.
         </pre>
       </div>
