@@ -7,6 +7,7 @@ import Skills from './pages/skills'
 import Experience from './pages/experience';
 import Select from 'react-select'
 import CreativeArt from './pages/creativeart.js';
+import OtherProjects from './pages/otherprojects.js';
 
 function App() {
   return (
@@ -17,15 +18,17 @@ function App() {
         <a href="/Portfolio/#projects">Projects</a>
         <a href="/Portfolio/#experience">Experience</a>
         <a href="/Portfolio/#creativeart">Game Design Experience</a>
+        <a href="/Portfolio/#otherprojects">3D Modeling</a>
       </ul>
-      <div id="scrollDownMessage">
+      {/* <div id="scrollDownMessage">
         <p>Scroll down ⬇️</p>
-      </div>
+      </div> */}
       <AboutMe></AboutMe>
       <Skills></Skills>
       <Projects></Projects>
       <Experience></Experience>
       <CreativeArt></CreativeArt>
+      <OtherProjects></OtherProjects>
     </div>
   );
 }

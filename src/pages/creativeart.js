@@ -3,6 +3,8 @@ import React from "react";
 import ela from '../assets/ela.mkv';
 import blenderscreenshot from '../assets/blenderscreenshot.png'
 import Project from "../components/project";
+import YTVideo from "../components/ytvideo";
+import Video from "../components/video";
 
 const projectsDictionary = {
   "Cats vs Dogs (browser game)": {
@@ -45,13 +47,11 @@ export default function CreativeArt() {
         <h2>My childhood Scratch projects</h2>
         <p>(Unavailable right now, reuploading soon)</p>
         <h2>A story game I made in Godot 4</h2>
-        <video width="520" height="360" controls>
-            <source src={ela}></source>
-        </video> <br></br>
+        <Video src={ela}></Video> <br></br>
         <h2>A FNF Engine I made in Godot 4</h2>
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rnrrxefu_sY?si=PF0odN2TZ4cYxQ85" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <YTVideo src="https://www.youtube-nocookie.com/embed/rnrrxefu_sY?si=PF0odN2TZ4cYxQ85"></YTVideo>
         <h2>Organization time - something I made for a game jam in 48 hours</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/s38TT-4gmsc?si=qfDfuuojGODALrK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <YTVideo src="https://www.youtube.com/embed/s38TT-4gmsc?si=qfDfuuojGODALrK4"></YTVideo>
         <h2>Metrophobia model (amazing art...)</h2>
         <img src={blenderscreenshot}></img>
         </div>
