@@ -7,42 +7,38 @@ import puzzlecube from '../assets/cube.png'
 import automata from '../assets/automata.png'
 import basketball from '../assets/basketball.png'
 import donut from '../assets/donut.png'
-import monsterpic from '../assets/blenderscreenshot.png'
-
+import automataIRL from '../assets/automata-irl.png'
 
 export default function OtherProjects() {
     return (
         <section id="otherprojects">
             <div>
                 <h1 className="heading">3D Modeling</h1>
-                <h2>Robotics</h2>
-                <h3>Using a moisture sensor and LCD display to light up the screen with moisture data</h3>
+                <h2>Hardware projects</h2>
+                <p>I have created many projects using the Elegoo Ardunio Starter kit, for example:</p>
+                <h3>(Using a solar panel to power a moisture sensor which feeds data to the LCD display</h3>
                 <img src={ardunioPic2} alt="Ardunio with moisture sensor"></img>
-                <h3>I also had a weather monitor (DHT11) with a LCD display but I didn't take a photo of it :/</h3>
-                <h2>Autodesk Fusion 360 (Design and drawing for production class)</h2>
-                <h3>Racecar</h3>
+                <p>In addition, I have recently installed Arch Linux and Linux Mint onto my old computers</p>
+                <p>I wrote a guide from what I learned about Arch Linux <a href="https://github.com/ZarmDev/arch-linux-guide">here</a></p>
+                {/* TODO ADD PHOTOS */}
+                <h2>Autodesk Fusion 360</h2>
+                <p>Racecar</p>
                 <img src={racecar} alt="Racecar picture"></img>
-                <p>Used a tutorial but it's original work</p>
-                <h3>Basketball Court</h3>
+                <p>Basketball Court</p>
                 <img src={basketball_court} alt="Basketball court"></img>
-                <p>Used a tutorial plus reskinning and I made the hoop</p>
-                <h3>Floor Plan</h3>
+                <p>Floor Plan</p>
                 <img src={floorplan} alt="Floor plan"></img>
-                <p>Made myself - very painful</p>
-                <h3>Toy Truck</h3>
+                <p>Toy Truck</p>
                 <img src={toytruck} alt="Toy truck"></img>
-                <p>Made using tutorial plus reskinning</p>
-                <h3>Puzzle Cube</h3>
+                <p>Puzzle Cube</p>
                 <img src={puzzlecube} alt="Puzzle cube"></img>
-                <p>Don't remember how it was made...</p>
-                <h3>Basketball</h3>
+                <p>Basketball</p>
                 <img src={basketball} alt="Basketball"></img>
-                <p>Using a tutorial + reskinning</p>
-                <h3>Automata</h3>
-                <img src={automata} alt="Automata"></img>
-                <p>I'm not sure if I made this myself but it was for a group project</p>
+                <p>Automata</p>
+                <img src={automata} alt="Automata"></img><br></br>
+                <img src={automataIRL}></img>
                 <h2>Blender</h2>
-                <h3>Donut</h3>
+                <p>Donut</p>
                 <img src={donut} alt="Donut"></img>
             </div>
         </section>
