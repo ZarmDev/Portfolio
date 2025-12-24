@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5fee0e1d.css",
-    "main.js": "/Portfolio/static/js/main.2c5a0ec2.js",
+    "main.css": "/Portfolio/static/css/main.88eaee4f.css",
+    "main.js": "/Portfolio/static/js/main.baf0ed8f.js",
     "static/media/ela.mkv": "/Portfolio/static/media/ela.95cded9d24dd90f6d980.mkv",
+    "static/media/automata-irl.png": "/Portfolio/static/media/automata-irl.c26c7e32dd7d18522c8a.png",
     "static/media/IMG_2037.jpg": "/Portfolio/static/media/IMG_2037.7caffbe4705bf0751ab7.jpg",
-    "static/media/blenderscreenshot.png": "/Portfolio/static/media/blenderscreenshot.9140a160e87a4f204285.png",
     "static/media/basketball-court.png": "/Portfolio/static/media/basketball-court.73c97239db2f5b9d5d60.png",
     "static/media/toytruck.png": "/Portfolio/static/media/toytruck.44fa62fc8b3624dea00e.png",
     "static/media/myfloorplan.png": "/Portfolio/static/media/myfloorplan.071a8bc3f6b3100885e0.png",
@@ -15,11 +15,11 @@
     "static/media/cube.png": "/Portfolio/static/media/cube.fd513da7210483b5136c.png",
     "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
-    "main.5fee0e1d.css.map": "/Portfolio/static/css/main.5fee0e1d.css.map",
-    "main.2c5a0ec2.js.map": "/Portfolio/static/js/main.2c5a0ec2.js.map"
+    "main.88eaee4f.css.map": "/Portfolio/static/css/main.88eaee4f.css.map",
+    "main.baf0ed8f.js.map": "/Portfolio/static/js/main.baf0ed8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fee0e1d.css",
-    "static/js/main.2c5a0ec2.js"
+    "static/css/main.88eaee4f.css",
+    "static/js/main.baf0ed8f.js"
   ]
 }
