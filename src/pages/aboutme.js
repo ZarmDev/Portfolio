@@ -9,7 +9,7 @@ export default function AboutMe() {
         <pre>
             <br></br>
             I'm a guy who loves coding, soccer and gaming!<br></br><br></br>
-            I am also a content creator, check out my music and my vidoes :)
+            I am also a content creator who creates music and all kinds of videos! (check out my links below 😎)
         </pre>
         <div id="externallinks">
           <a href="https://www.youtube.com/@zarm" target="_blank" rel="noopener noreferrer">
