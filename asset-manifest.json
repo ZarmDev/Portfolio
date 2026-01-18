@@ -1,25 +1,36 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.88eaee4f.css",
-    "main.js": "/Portfolio/static/js/main.baf0ed8f.js",
+    "main.css": "/Portfolio/static/css/main.f4ea33e9.css",
+    "main.js": "/Portfolio/static/js/main.270389bb.js",
+    "static/media/catsvsdogs.mp4": "/Portfolio/static/media/catsvsdogs.30bb5a055b3ffe6683a7.mp4",
     "static/media/ela.mkv": "/Portfolio/static/media/ela.95cded9d24dd90f6d980.mkv",
     "static/media/automata-irl.png": "/Portfolio/static/media/automata-irl.c26c7e32dd7d18522c8a.png",
     "static/media/IMG_2037.jpg": "/Portfolio/static/media/IMG_2037.7caffbe4705bf0751ab7.jpg",
     "static/media/basketball-court.png": "/Portfolio/static/media/basketball-court.73c97239db2f5b9d5d60.png",
     "static/media/toytruck.png": "/Portfolio/static/media/toytruck.44fa62fc8b3624dea00e.png",
     "static/media/myfloorplan.png": "/Portfolio/static/media/myfloorplan.071a8bc3f6b3100885e0.png",
+    "static/media/metrophobia.jpg": "/Portfolio/static/media/metrophobia.d7660930cb4ffc561090.jpg",
+    "static/media/arch.jpg": "/Portfolio/static/media/arch.26a94847f693dba57226.jpg",
+    "static/media/metrophobia2.jpg": "/Portfolio/static/media/metrophobia2.3803b6b341ab676c3859.jpg",
     "static/media/basketball.png": "/Portfolio/static/media/basketball.f813e8875b76ca314d27.png",
     "static/media/donut.png": "/Portfolio/static/media/donut.8521b33fd82c3bb7ec65.png",
     "static/media/racecar.png": "/Portfolio/static/media/racecar.4dfe6cb089fa259a4c46.png",
+    "static/media/firsthorrorgame.jpg": "/Portfolio/static/media/firsthorrorgame.1dc184aff30df7eaee21.jpg",
+    "static/media/therapyoutsideapp.jpg": "/Portfolio/static/media/therapyoutsideapp.401d0efaa8d7efab934c.jpg",
     "static/media/automata.png": "/Portfolio/static/media/automata.84585e528e699432f996.png",
+    "static/media/to-doz-react.jpg": "/Portfolio/static/media/to-doz-react.c7c151fa10408cdfa610.jpg",
+    "static/media/quizpardy.jpg": "/Portfolio/static/media/quizpardy.6a84b5fa845daf93d88b.jpg",
+    "static/media/calculator.jpg": "/Portfolio/static/media/calculator.615307655387e628ed02.jpg",
+    "static/media/bthshubserver.jpg": "/Portfolio/static/media/bthshubserver.45747c19c74017bcadbb.jpg",
+    "static/media/bthshub.jpg": "/Portfolio/static/media/bthshub.a85d61b05be67fbbfbdf.jpg",
     "static/media/cube.png": "/Portfolio/static/media/cube.fd513da7210483b5136c.png",
     "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
-    "main.88eaee4f.css.map": "/Portfolio/static/css/main.88eaee4f.css.map",
-    "main.baf0ed8f.js.map": "/Portfolio/static/js/main.baf0ed8f.js.map"
+    "main.f4ea33e9.css.map": "/Portfolio/static/css/main.f4ea33e9.css.map",
+    "main.270389bb.js.map": "/Portfolio/static/js/main.270389bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.88eaee4f.css",
-    "static/js/main.baf0ed8f.js"
+    "static/css/main.f4ea33e9.css",
+    "static/js/main.270389bb.js"
   ]
 }
