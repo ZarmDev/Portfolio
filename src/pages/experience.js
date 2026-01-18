@@ -5,93 +5,87 @@ export default function Experience() {
     {
       year: "2022",
       title: "TerminalC1Games High School Competition",
-      description: "A hackathon where we used Python to create better algos (algorithms that fight each other)",
+      description: "Created competitive Python algorithms that battled other student bots in a real‑time strategy environment.",
       link: "https://terminal.c1games.com/"
     },
     {
       year: "2023",
       title: "USACO",
-      description: "A hackathon where we used Python to create better algos (algorithms that fight each other)",
+      description: "Solved algorithmic programming problems for the USACO contests, focusing on data structures and competitive programming techniques.",
       link: "https://github.com/ZarmDev/codingproblems/tree/main/USACO%20practice/competitions/december2023"
     },
     {
       year: "2023",
       title: "Code Overflow 2023 Hackathon",
-      description: "A 48 hour hackathon where I made a game using Godot",
+      description: "Built a full Godot game in 48 hours, handling gameplay logic, UI, and asset integration.",
       youtube: "s38TT-4gmsc"
     },
     {
       year: "2023",
       title: "Girlswhocode Hackathon",
-      description: "A hackathon that I think was three days long where me and my team made a website that let you upload plants to a server and had a cool UI.",
+      description: "Developed a plant‑sharing web app with image uploads, a clean UI, and a simple backend for storage.",
       github: "https://github.com/ZarmDev/plantcoppa"
     },
     {
       year: "2024",
       title: "Divergent Hackathon",
-      description: "A hackathon where me and my team created a jeopardy/quiz style app using React-native",
+      description: "Created a React Native quiz/jeopardy‑style mobile app with team collaboration and real‑time scoring.",
       github: "https://github.com/ZarmDev/QuizPardy"
     },
     {
       year: "2024",
       title: "USACO",
-      description: "A hackathon where we used Python to create better algos (algorithms that fight each other)",
+      description: "Continued competitive programming training with USACO problems, focusing on optimization and algorithm design.",
       link: "https://github.com/ZarmDev/codingproblems/tree/main/USACO%20practice/competitions/january2024"
     },
     {
       year: "2024",
       title: "CerealCodes",
-      description: "A hackathon where we used Python to create better algos (algorithms that fight each other)",
+      description: "Worked on Python‑based algorithmic challenges in a fast‑paced competitive coding environment.",
       link: "https://github.com/ZarmDev/codingproblems/tree/main/USACO%20practice/competitions/january2024"
     },
     {
       year: "2025",
       title: "Congressional App Challenge",
-      description: "A hackathon where we used Python to create better algos (algorithms that fight each other)",
-      link: "https://github.com/ZarmDev/codingproblems/tree/main/GirlsWhoCode2025"
+      description: "Built a mobile app for the national Congressional App Challenge, focusing on usability, design, and real‑world impact.",
+      link: "https://github.com/ZarmDev/BTHSHub-App"
     },
     {
       year: "2025",
       title: "UC Berkeley - Calico",
-      description: "A hackathon where we used Python to create better algos (algorithms that fight each other)",
+      description: "Participated in Calico by building a project centered around creativity, rapid prototyping, and teamwork.",
       link: "https://github.com/ZarmDev/codingproblems/tree/main/GirlsWhoCode2025"
     },
     {
       year: "2025",
       title: "HackClub - Arcade",
-      description: "A hackathon where we used Python to create better algos (algorithms that fight each other)",
-      link: "https://github.com/ZarmDev/codingproblems/tree/main/GirlsWhoCode2025"
+      description: "Developed part of the BTHS Hub app ecosystem as a HackClub Arcade project, focusing on student tools and productivity.",
+      link: "https://github.com/ZarmDev/BTHSHub-App"
     },
     {
       year: "2025",
       title: "HackClub - Summer of Making",
-      description: "A hackathon where we used Python to create better algos (algorithms that fight each other)",
-      link: "https://github.com/ZarmDev/codingproblems/tree/main/GirlsWhoCode2025"
+      description: "Built backend services for the BTHS Hub platform during HackClub’s Summer of Making.",
+      link: "https://github.com/ZarmDev/BTHSHub-Server"
     },
     {
       year: "2025",
       title: "ACSL - American Computer Science League",
-      description: "A hackathon where we used Python to create better algos (algorithms that fight each other)",
+      description: "Practiced formal computer science topics including automata, bit operations, and algorithmic problem solving.",
       link: "https://github.com/ZarmDev/codingproblems/tree/main/GirlsWhoCode2025"
     },
     {
       year: "2025",
       title: "GirlsWhoCode",
-      description: "A hackathon where we used Python to create better algos (algorithms that fight each other)",
+      description: "Worked on collaborative coding projects through Girls Who Code, focusing on web development and teamwork.",
       link: "https://github.com/ZarmDev/codingproblems/tree/main/GirlsWhoCode2025"
     },
     {
       year: "2025",
       title: "Code4Hope",
-      description: "A hackathon where we used Python to create better algos (algorithms that fight each other)",
-      link: "https://github.com/ZarmDev/codingproblems/tree/main/GirlsWhoCode2025"
-    },
-    {
-      year: "2025",
-      title: "Congressional App Challenge",
-      description: "A hackathon where we used Python to create better algos (algorithms that fight each other)",
-      link: "https://github.com/ZarmDev/codingproblems/tree/main/GirlsWhoCode2025"
-    },
+      description: "Created TherapyOutside, a mental‑health support app designed to help users track emotions and access resources.",
+      link: "https://github.com/ZarmDev/TherapyOutsideApp"
+    }
   ];
 
   // Group items by year (preserves insertion order of appearance)

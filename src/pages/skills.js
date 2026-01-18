@@ -23,8 +23,6 @@ export default function Skills() {
 
   const tools = [
     { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
-    { name: "Arduino", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" },
-    { name: "Raspberry Pi", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" },
     { name: "Blender", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" },
     { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
     { name: "Inkscape", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/inkscape/inkscape-original.svg" },
@@ -36,8 +34,14 @@ export default function Skills() {
     { name: "Audacity", icon: "https://img.icons8.com/?size=100&id=KLekjbJy6rjh&format=png&color=000000" },
     { name: "Shotcut", icon: "https://www.shotcut.org/assets/img/media/shotcut-logo-512x512.png" },
     { name: "Multisim", icon: "https://cdn.simpleicons.org/multisim" },
-    { name: "Fusion 360", icon: "https://upload.wikimedia.org/wikipedia/commons/d/db/Fusion360_Logo.svg" }
+    { name: "Fusion 360", icon: "https://upload.wikimedia.org/wikipedia/commons/d/db/Fusion360_Logo.svg" },
   ];
+
+  const hardware = [
+    { name: "Raspberry Pi", icon: "https://img.icons8.com/?size=100&id=13443&format=png&color=000000" },
+    { name: "Arch Linux", icon: "https://img.icons8.com/?size=100&id=7seppVX8x2nf&format=png&color=000000" },
+    { name: "Arduino", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" },
+  ]
 
 
   const gameEngines = [
@@ -109,6 +113,18 @@ export default function Skills() {
           <h2>Databases</h2>
           <div className="skills-grid">
             {databases.map((skill, index) => (
+              <div key={index} className="skill-card">
+                <img src={skill.icon} className="skill-icon" />
+                <p>{skill.name}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="skills-category">
+          <h2>Hardware</h2>
+          <div className="skills-grid">
+            {hardware.map((skill, index) => (
               <div key={index} className="skill-card">
                 <img src={skill.icon} className="skill-icon" />
                 <p>{skill.name}</p>

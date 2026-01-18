@@ -309,6 +309,7 @@ button:hover {
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 30px;
   margin-top: 40px;
+  align-items: start;
 }
 
 .project-card {
@@ -375,8 +376,8 @@ button:hover {
 
 .project-thumbnail {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   display: block;
   transition: transform 0.3s ease;
 }

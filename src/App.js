@@ -14,21 +14,21 @@ function App() {
     <div className="App">
       <ul id="topbar">
         <a href="/Portfolio/#about">About me</a>
-        <a href="/Portfolio/#skills">Skills</a>
         <a href="/Portfolio/#projects">Projects</a>
-        <a href="/Portfolio/#experience">Hackathons</a>
         <a href="/Portfolio/#creativeart">Game Design</a>
         <a href="/Portfolio/#otherprojects">3D Modeling</a>
+        <a href="/Portfolio/#skills">Skills</a>
+        <a href="/Portfolio/#experience">Hackathons</a>
       </ul>
       {/* <div id="scrollDownMessage">
         <p>Scroll down ⬇️</p>
       </div> */}
       <AboutMe></AboutMe>
-      <Skills></Skills>
       <Projects></Projects>
-      <Experience></Experience>
       <CreativeArt></CreativeArt>
       <OtherProjects></OtherProjects>
+      <Skills></Skills>
+      <Experience></Experience>
     </div>
   );
 }
